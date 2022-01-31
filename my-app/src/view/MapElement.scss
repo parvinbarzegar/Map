@@ -1,0 +1,15 @@
+.popup{
+    width: 400px;
+    min-width: 250px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    &__img {
+      
+    }
+    &__name{
+        font-weight: bold;
+        
+    }
+}

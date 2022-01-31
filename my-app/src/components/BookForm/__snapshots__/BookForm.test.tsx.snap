@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test suits for <BookForm/> should match to the snapshot 1`] = `
+<div>
+  <div>
+    <form
+      class="book-form"
+    >
+      <legend
+        class="book-form book-form__title"
+      >
+        Book your harbor
+      </legend>
+      <label
+        class="book-form book-form__input-label"
+      >
+        Boat name
+        <input
+          class="book-form book-form__input-control"
+          maxlength="20"
+          minlength="1"
+          type="text"
+          value=""
+        />
+        
+      </label>
+      <label
+        class="book-form book-form__input-label"
+      >
+        Boat length
+        <input
+          class="book-form book-form__input-control"
+          max="100"
+          min="0"
+          type="number"
+          value="0"
+        />
+      </label>
+      <label
+        class="book-form book-form__input-label"
+      >
+        Start Date
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class=""
+              type="text"
+              value="01/30/2022"
+            />
+          </div>
+        </div>
+      </label>
+      <label
+        class="book-form book-form__input-label"
+      >
+        End Date
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class=""
+              type="text"
+              value="01/31/2022"
+            />
+          </div>
+        </div>
+      </label>
+      <button
+        class="button button--secondry"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;

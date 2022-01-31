@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suits for <Button/> should match to snapshot 1`] = `
+<div>
+  <button
+    class="button button--primary"
+  >
+    Hope
+  </button>
+</div>
+`;

@@ -1,0 +1,43 @@
+.notification {
+    min-width: 250px;
+    max-width: 700px;
+    z-index: 99999999999999;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: -60px;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size:18px;
+    width: auto;
+    animation: fadeIn .5s ease-in forwards, fadeOut 1s ease-in-out 3s forwards;
+    &--warning {
+      background-color: rgb(245, 124, 0);
+    }
+    &--success {
+      background-color: rgb(56, 142, 60);
+    }
+    &--info {
+      background-color: rgb(2, 136, 209);
+    }
+    &__icon {
+      font-size: 24px;
+      margin-right: 5px;
+    }
+    @keyframes fadeIn {
+      100% {
+        top: 10px;
+      }
+    }
+    @keyframes fadeOut {
+      100% {
+        opacity: 0;
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suits for <Notification/> should match to snapshot 1`] = `
+<div>
+  <div
+    class="notification notification--info"
+  >
+    <div
+      class="notification__icon"
+    >
+      <span />
+    </div>
+    info
+  </div>
+</div>
+`;
